@@ -15,6 +15,7 @@
         "ergebnis/composer-normalize": "^2.4",
         "php-http/curl-client": "^2.1",
         "php-http/httplug": "^2.1",
+        "phpstan/phpstan": "^0.12.19",
         "symfony/var-dumper": "^4.4 || ^5.0"
     },
     "config": {
