@@ -1,0 +1,7 @@
+{
+    "name": "schnitzler/bib-api-client",
+    "description": "API client",
+    "type": "library",
+    "license": "proprietary",
+    "require": {}
+}
