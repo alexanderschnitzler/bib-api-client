@@ -9,5 +9,10 @@
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.3.16"
+        }
     }
 }
