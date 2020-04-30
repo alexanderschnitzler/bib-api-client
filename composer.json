@@ -3,5 +3,8 @@
     "description": "API client",
     "type": "library",
     "license": "proprietary",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.4"
+    }
 }
