@@ -1,0 +1,39 @@
+parameters:
+  sets:
+    - 'psr12'
+  paths:
+    - 'src'
+
+services:
+  PhpCsFixer\Fixer\Strict\NoLeadingImportSlashFixer: ~
+  PhpCsFixer\Fixer\ArrayNotation\NoTrailingCommaInSinglelineArrayFixer: ~
+  PhpCsFixer\Fixer\Semicolon\NoSinglelineWhitespaceBeforeSemicolonsFixer: ~
+  PhpCsFixer\Fixer\Import\NoUnusedImportsFixer: ~
+  PhpCsFixer\Fixer\Operator\ConcatSpaceFixer:
+    spacing: 'one'
+  PhpCsFixer\Fixer\Whitespace\NoWhitespaceInBlankLineFixer: ~
+  PhpCsFixer\Fixer\Import\OrderedImportsFixer: ~
+  PhpCsFixer\Fixer\StringNotation\SingleQuoteFixer: ~
+  PhpCsFixer\Fixer\Semicolon\NoEmptyStatementFixer: ~
+  PhpCsFixer\Fixer\Whitespace\NoExtraBlankLinesFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\NoBlankLinesAfterPhpdocFixer: ~
+  PhpCsFixer\Fixer\ArrayNotation\ArraySyntaxFixer:
+    syntax: 'short'
+  PhpCsFixer\Fixer\ArrayNotation\WhitespaceAfterCommaInArrayFixer: ~
+  PhpCsFixer\Fixer\FunctionNotation\FunctionTypehintSpaceFixer: ~
+  PhpCsFixer\Fixer\CastNotation\LowercaseCastFixer: ~
+  PhpCsFixer\Fixer\NamespaceNotation\NoLeadingNamespaceWhitespaceFixer: ~
+  PhpCsFixer\Fixer\CastNotation\ModernizeTypesCastingFixer: ~
+  PhpCsFixer\Fixer\Casing\NativeFunctionCasingFixer: ~
+  PhpCsFixer\Fixer\ClassNotation\SelfAccessorFixer: ~
+  PhpCsFixer\Fixer\CastNotation\NoShortBoolCastFixer: ~
+  PhpCsFixer\Fixer\ControlStructure\NoUnneededControlParenthesesFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocNoPackageFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocScalarFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocNoEmptyReturnFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocTrimFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocTypesFixer: ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocTypesOrderFixer:
+    null_adjustment: 'always_last'
+    sort_algorithm: 'none'
+  PhpCsFixer\Fixer\Phpdoc\PhpdocIndentFixer: ~
