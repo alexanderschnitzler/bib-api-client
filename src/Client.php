@@ -68,6 +68,22 @@ final class Client
     /**
      * @throws ClientExceptionInterface
      */
+    public function isLoggedIn(string $sessionId): ResponseInterface
+    {
+        $query = http_build_query([
+            'method' => 'isloggedin',
+            'session_id' => $sessionId,
+        ]);
+        $query = ltrim($query, '&');
+
+        $uri = $this->baseUri->withQuery($query);
+        $request = $this->requestFactory->createRequest('GET', $uri);
+        return $this->sendRequest($request);
+    }
+
+    /**
+     * @throws ClientExceptionInterface
+     */
     public function forgotPassword(string $sessionId, string $email): ResponseInterface
     {
         $query = http_build_query([
