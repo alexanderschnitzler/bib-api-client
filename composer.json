@@ -4,6 +4,7 @@
     "type": "library",
     "license": "proprietary",
     "require": {
+        "php": "^7.3.0",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
         "psr/http-message": "^1.0"
