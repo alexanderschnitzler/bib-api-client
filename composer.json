@@ -13,6 +13,7 @@
     "config": {
         "platform": {
             "php": "7.3.16"
-        }
+        },
+        "sort-packages": true
     }
 }
