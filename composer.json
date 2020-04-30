@@ -15,5 +15,10 @@
             "php": "7.3.16"
         },
         "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Schnitzler\\BibApiClient\\": "src/"
+        }
     }
 }
