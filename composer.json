@@ -16,7 +16,8 @@
         "php-http/curl-client": "^2.1",
         "php-http/httplug": "^2.1",
         "phpstan/phpstan": "^0.12.19",
-        "symfony/var-dumper": "^4.4 || ^5.0"
+        "symfony/var-dumper": "^4.4 || ^5.0",
+        "symplify/easy-coding-standard": "^7.2"
     },
     "config": {
         "platform": {
